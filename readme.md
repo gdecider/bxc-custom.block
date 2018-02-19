@@ -29,9 +29,11 @@ $set = array(
 
 ## Пример подключения компонента
 
+Разместить компонент в своем пространстве имен (например local).
+
 ```php
 <? $APPLICATION->IncludeComponent(
-  "idex:custom.block",
+  "local:custom.block",
   "customTemplateForBlock",
   [],
   false
